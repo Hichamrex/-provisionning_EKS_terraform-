@@ -7,19 +7,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sleep 96
+                sleep 110
                 echo 'Front end builded'
             }
         }
         stage('Test') {
             steps {
-                sleep 76   
+                sleep 88  
                 echo 'Front end test it'
             }
         }
         stage('Realase') {
             steps {
-                sleep 29   
+                sleep 31   
                 echo 'Front end release it'
             }
         }
